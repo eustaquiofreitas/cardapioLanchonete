@@ -1,0 +1,108 @@
+body {
+  background-image: url("./fundoJpg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: scroll;
+  font-family: "Josefin Sans", sans-serif;
+  /* -webkit-print-color-adjust: exact; */
+  /* height: 100%; */
+}
+.table-bcg {
+  color: yellow;
+  background-color: rgba(15, 15, 14, 0.705) !important; 
+  /* background-color: transparent; */
+}
+.hide {
+  display: none;
+}
+.form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#lanche {
+  width: 10px;
+}
+.card {
+  background-color: rgba(15, 15, 14, 0.918) !important;
+}
+.cabecalho {
+  display: flex !important;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  height: 150px;
+}
+
+.marca {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  background-image: url("./img/logo-burgao.png");
+  width: 20%;
+  height: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+}
+.name-empresa {
+  height: 60%;
+  color: #fff;
+  font-weight: bold;
+  /* padding: 30px; */
+}
+.infoEmpresa {
+  display: flex;
+  /* justify-content: flex-end; */
+  background-image: url("./img/imgRigth.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 430px;
+  height: 97%;
+}
+form {
+  /* padding: 25px 90px 25px 0px ; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: black;
+  font-weight: bold;
+  font-size: 25px;
+  align-items: center;
+  padding-top: 25px;
+}
+.cadastro {
+  background-color: rgba(255, 255, 255, 0.925);
+}
+.inputImpress {
+  color: #fff;
+  font-size: 25px;
+  font-weight: 700;
+  margin: 0px 15px 20px 15px;
+  margin: 5px 0;
+}
+td {
+  padding: 5px !important;
+  font-weight: bold;
+}
+th{
+  padding: 8px !important;
+}
+.item-info {
+  width: 15px;
+  text-align: center;
+}
+
+@media print {
+  .table td, .table th {
+    background-color: rgba(15, 15, 14, 0.514)!important;
+  }
+
+}

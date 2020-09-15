@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" type="text/css" href="sytle.css" media="all"  />
+    <!-- <img src="./cardapiao_titulo.png" alt=""> -->
+    <title>Cardápio Lanchonete</title>
+  </head>
+  <body id="body-backGround">
+    <header class="card cabecalho">
+      <div class="container cabecalho">
+        <div class="logo"></div>
+        <div class="marca">
+          <div class="name-empresa">
+            <h1 class="title">Burgão Lanches</h1>
+          </div>
+          <div class="location">
+            Abertos de quarta à domingo - das 18:30 às 22:30
+          </div>
+        </div>
+        <div class="infoEmpresa"></div>
+      </div>
+    </header>
+
+    <div class="cadastro">
+      <div class="formulario container">
+        <form>
+          <label class="col-lg-6" for=""
+            >Ingrediente:
+            <input type="text" class="form-control" id="inputEntrada"
+          /></label>
+          <label for=""
+            >Valor: <input type="number" class="form-control" id="inputPrice"
+          /></label>
+
+          <input
+            id="txtImput"
+            type="submit"
+            class="btn btn-primary"
+            value="Cadastrar"
+          />
+        </form>
+        <input
+          type="submit"
+          class="inputImpress btn btn-success"
+          value="Confirmar"
+        />
+      </div>
+    </div>
+
+    <div class="container mt-1">
+      <table class="table table-bcg">
+        <thead class="table table-dark table-bcg">
+          <tr>
+            <th class="item-info"><h4>Lanche</h4></th>
+            <th><h4>Ingrediente</h4></th>
+            <th><h4>Valor</h4></th>
+          </tr>
+        </thead>
+        <tbody class="tbody-fundo" id="paragrafy"></tbody>
+      </table>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
